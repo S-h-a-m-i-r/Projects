@@ -1,0 +1,15 @@
+export { default as RegisterPage } from "./Register";
+export { default as LoginPage } from "./Login";
+export { default as LandingPage } from "./Landing";
+export { default as DashboardPage } from "./Dashboard";
+export { default as KpiListPage } from "./KpilistPage";
+export { default as ErrorPage } from "./Error";
+export { default as AppraisalFlowPage } from "./AppraisalFlow";
+export { default as CreateAppraisalflowPage } from "./CreateAppraisalFlow";
+export { default as AppraisalPage } from "./Appraisal";
+export { default as UpdateAppraisalflowPage } from "./EditAppraisalflow";
+export { default as TodoPage } from "./Todo";
+export { default as completedToDoPage } from "./CompletedTodo";
+export { default as ViewPage } from "./ViewPage";
+export { default as EmployeeAppraisalPage } from "./EmployeeAppraisal";
+export { default as KpiViewPage } from "./KpiViewPage";

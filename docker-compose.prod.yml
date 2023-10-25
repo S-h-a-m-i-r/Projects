@@ -1,0 +1,9 @@
+version: '3'
+services:
+  appraisal_system:
+    # NOTE Will specify port during product
+    # ports:
+    #   - 
+    env_file:
+      - ./.env.prod
+    command: yarn start

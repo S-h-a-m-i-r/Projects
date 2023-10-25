@@ -1,0 +1,9 @@
+version: '3'
+services:
+  appraisal_system:
+    build: .
+    ports:
+      - "4040:3000"
+    volumes:
+      - ./:/app:ro
+      - /app/node_modules
